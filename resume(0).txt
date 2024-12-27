@@ -1,0 +1,94 @@
+---
+title: Resumé
+---
+
+# Renê Santos <!-- ![pic01](../../pictures/icon.png) -->
+____________________________________________________________________________________________________
+### Sobre mim:
+<br>
+Hoje atuo como Engenheiro de Dados no setor de consultoria e posso te ajudar a resolver vários problemas que rondam o seu dia-a-dia. Minha especialidade abrange relatórios digitais interativos(dashboards), sendo eles estáticos ou automatizados, assim como OPRs (One Page Report), na atuação de análise. E, como engenheiro, posso trazer tecnologias de ponta para sua tomada de decisão ser mais eficiente, com automações em batch ou real-time, com o custo mais ajustado para sua necessidade e o maior impacto nos seus resultados.
+
+
+Com 15 anos de experiência nas áreas de engenharia industrial, gestão de empresas, **dados** e, enumerando brevemente soluções de dados que já trabalhei até o momento, como abaixo pode ser citado garanto que o resultado do seu negócio nunca mais será o mesmo.
+
+(a) Ferramentas para análise de dados: **Microsoft Power BI**, Tableau e **Google Data Studio**. (3 dos 4 maiores players de acordo com o Quadrante Gartner);
+
+(b) Tecnologias de engenharia de dados: Modelagem Dimensional (Star ou Snow-Flake Schema),  Orquestração de Pipelines via Crontab, **Pentaho**, **Apache Airflow**, processamento via **Python**, SQL, **Apache Spark**, serviços cloud com **Amazon - AWS** (maior player mundial na categoria), consolidadores de dados como o **Dremio** e o Athena, e, ainda Delta Lake para otimização de armazenamento e operações com dados.
+
+(c) Infraestrutura física ou cloud com Buckets AWS-S3 para armazenamento, máquinas virtuais EC2 e/ou cluster de processamento AWS-EKS (**Kubernetes**), tudo isso sendo suportado por IaC (infraestrutura como código) via **Terraform**.
+
+(d) Continuos improvement e Continuous development via Git Hub e Git Lab.
+
+(e) Para registro, documentação e transferência de conhecimento MkDocs (esta mesma ferramenta que lhe possibilita ler minha apresentação no momento).
+
+
+Vale muito a pena ressaltar que tudo isso, contudo, pode ser desenvolvido de acordo com metodologias ágeis como Kanban e Scrum. 
+
+
+Para saber um pouco mais do meu trabalho e minhas certificações, visite meu perfil no [Linked-In](https://www.linkedin.com/in/rene-santos-pro) ou também meu repositório no [Git Hub](https://github.com/renesantospro).
+<br>
+<br>
+<br>
+
+____________________________________________________________________________________________________
+### Um pouco mais sobre meu trabalho na prática:
+<br>
+
+#### Análise de dados:
+<br>
+Através de diferentes tipos de análises dos dados e de muita experiência com gestão é possível saber o que o cliente pode fazer para sanar suas dores. Contando com ferramentas de mercado,
+
+![analisys_tools](../../pictures/analysis_tools.png)
+
+a exploração profunda dos dados e o entendimento do negócio geram insights para uma tomada de decisão significativamente mais assertiva. Veja abaixo emplos da minha atuação:
+
+* análise de viralização:
+
+![viralizacao](../../pictures/dash_viralizacao.png)
+
+Esse dashboard foi desenvolvido para estudo da dinâmica de um evento em redes sociais (fenômeno de viralização).
+
+
+* análise socioeconômica:
+
+![socioeconomico](../../pictures/dash_socioeconomico.png)
+
+Certa vez uma empresa necessitava ofertar uma capacitação específica para seus funcionários e a partir de uma contratalção B2B foi levantado um perfil socioeconômico dos alunos.
+
+* monitor de faturamento (near real-time):
+
+![faturamento](../../pictures/monitor_faturamento.png)
+
+Nesse caso, o acompanhamento de vendas de um e-commerce próximo de fato do real-time foi uma solução que contribuiu muito com a tomada de decisões da diretoria de operações da empresa.
+
+
+Visite também a [análise do meu perfil no linked-in através de dados](https://datastudio.google.com/reporting/859f258f-09f2-4b2e-b080-d55629012f7e).
+<br>
+<br>
+<br>
+
+#### Engenharia de dados
+<br>
+A Engenharia, por sua vez, difere nas suas características em relação ao processo de análise. Nesse caso, trabalha-se mais por dentro dos dados, em termos computacionais, e ponderando muita performance, aspectos técnicos do dado, da pipeline, do processamento e da infraestrutura, o que permitirá que esses dados possam ser armazenados e disponibilizados. Como demonstrado na figura abaixo, existe um grande trabalho de padronização de atividades e procedimentos que compõem o dia-a-dia de um engenheiro de dados.
+
+![fluxo_macro](../../pictures/fluxo_macro.png)
+
+![engineering_process](../../pictures/engineering_process.png)
+<br>
+<br>
+
+Para tanto, um engenheiro de dados tem a seu favor tecnologias como as elencadas a seguir para que todo o trabalho se torne mais eficiente bem como escalável, rumo a direções como o Big Data, se necessário. Nessa figura foram reunidas as tecnologias, ferramentas e servicos que mais tenho contato na atividade que excuto hoje e aproveito para ressaltar que são todas líderes de mercado, cada uma em sua aplicação.
+
+![engineering_tools](../../pictures/engineering_tools.png)
+
+
+Por fim, porém não menos importante, todo o desenvolvimento do trabalho de engenharia resume-se numa arquitetura que organiza tudo de uma forma coerente e funcional, como a figura abaixo nos mostra, um exemplo.
+
+![arquitetura](../../pictures/architecture.png)
+
+<br>
+<br>
+<br>
+
+____________________________________________________________________________________________________
+
