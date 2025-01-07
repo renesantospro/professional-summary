@@ -51,6 +51,7 @@ jobs:
   
   deploy:
     runs-on: ubuntu-latest
+    needs: build
     environment:
       # set package from github pages to work on GCP/GCS sync
       name: github-pages
