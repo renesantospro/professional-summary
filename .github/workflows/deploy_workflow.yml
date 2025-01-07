@@ -85,5 +85,5 @@ jobs:
       
       - name: Upload files to GCS
         run: |
-          gsutil cp ./downloads/* gs://${{ env.BUCKET_NAME }}/
+          gsutil cp -r ./downloads/* gs://${{ env.BUCKET_NAME }}/
           
