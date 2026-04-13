@@ -1,4 +1,30 @@
-site_name: Professional Profile
+site_name: Renê Santos - Engenheiro de Dados
+
+theme:
+  name: material
+  palette:
+    # Modo Claro (Default)
+    - scheme: default
+      primary: grey
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Trocar para modo escuro
+    # Modo Escuro (Slate)
+    - scheme: slate
+      primary: grey
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Trocar para modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
 
 nav:
   - Home: index.md
