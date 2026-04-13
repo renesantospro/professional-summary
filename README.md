@@ -1,17 +1,37 @@
-# home_page
+# Professional Summary - Renê Santos
 
-https://cloud.google.com/storage/docs/hosting-static-website#command-line_1
+Este repositório contém o código-fonte e a infraestrutura do site profissional/portfólio de **Renê Santos - Engenheiro de Dados**. O projeto utiliza uma abordagem de Documentação como Código (*Docs-as-Code*) para gerar um site estático rápido, elegante e versionado.
 
-https://cloud.google.com/storage/docs/hosting-static-website-http#command-line_1
+## Estrutura do Projeto e Artefatos
 
+*   **`docs/`**: Contém o conteúdo das páginas do site em formato Markdown. O manifesto principal (`index.md`) reflete o perfil "Engenharia de Dados com Mente Industrial", detalhando stacks tecnológicas, mindset e contatos.
+*   **`mkdocs.yml`**: Arquivo de configuração do Framework [MkDocs](https://www.mkdocs.org/). Ele orquestra o site definindo o tema ([Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)), cores, fontes, extensões e a estrutura de navegação.
+*   **`.github/workflows/deploy_workflow.yml`**: Pipeline de CI/CD configurado no via GitHub Actions. Sempre que um código é mesclado na branch `main`, a Action constrói a aplicação MkDocs e realiza o upload dos artefatos do build automaticamente para um **Bucket no Amazon S3**.
+*   **`requirements.txt`**: Dependências Python utilizadas para construir o site estático no ambiente de integração contínua (CI).
+*   **`resume_experimental.txt`**: Artefato em texto estruturado contendo o currículo consolidado e detalhado.
 
-gcloud storage managed-folders create gs://renesantos_pro/site/
-gcloud storage managed-folders add-iam-policy-binding gs://renesantos_pro/site --member=allUsers --role=roles/storage.legacyObjectReader
+## Tecnologias e Infraestrutura
 
+*   **Front-end Estático:** MkDocs & Material for MkDocs.
+*   **CI/CD:** GitHub Actions.
+*   **Hospedagem Cloud:** AWS S3 (Amazon Simple Storage Service) para entrega global via Web de forma altamente escalável e segura.
 
-gcloud storage buckets add-iam-policy-binding  gs://my-static-assets --member=allUsers --role=roles/storage.objectViewer
-gcloud storage buckets add-iam-policy-binding  gs://my-static-assets --member=allUsers --role=roles/storage.legacyObjectReader
+## Desenvolvimento Local (Como executar)
 
+Para testar e pré-visualizar o site na sua máquina local antes de gerar um `commit`:
 
-http://storage.googleapis.com/BUCKET_NAME/OBJECT_NAME
-https://storage.googleapis.com/renesantos_pro/site/index.html
+1.  Certifique-se de ter o Python 3.10+ instalado.
+2.  (Opcional, mas recomendado) Crie e ative um ambiente virtual:
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # No Windows: .venv\Scripts\activate
+    ```
+3.  Instale os pacotes com o `pip`:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  Suba o servidor embutido de desenvolvimento:
+    ```bash
+    mkdocs serve
+    ```
+5.  Acesse **[http://localhost:8000](http://localhost:8000)** em seu navegador. O site possui *Hot-Reload* automático à medida que você altera os arquivos dentro da pasta `docs/`.
